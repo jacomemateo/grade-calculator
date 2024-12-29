@@ -1,0 +1,9 @@
+root = "."
+
+[build]
+    cmd = "make build"
+    bin = "./tmp/main"
+    delay = 1000
+    exclude_regex = ["_templ.go"]
+    include_file = ["static/css/base.css"]
+    include_ext = ["go", "templ"]
